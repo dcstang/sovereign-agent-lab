@@ -173,17 +173,17 @@ def calculate_catering_cost(guests: int, price_per_head_gbp: float) -> str:
 
 
 @tool
-def generate_event_flyer(venue_name: str, guest_count: int, event_theme: str) -> str:
+def generate_event_flyer(pub_name: str, guest_count: int, event_theme: str) -> str:
     """
     Generate a promotional event flyer image for the confirmed Edinburgh venue.
     Call this AFTER a venue is confirmed, as the final output step.
     Returns a URL to the generated image.
-    venue_name: the confirmed pub name
+    pub_name: the confirmed pub name
     guest_count: confirmed number of attendees
     event_theme: short description, e.g. 'AI Meetup, professional, Scottish'
     """
     prompt = (
-        f"Professional event flyer for {event_theme} at {venue_name}, "
+        f"Professional event flyer for {event_theme} at {pub_name}, "
         f"Edinburgh. {guest_count} guests tonight. Warm lighting, "
         f"Scottish architecture background, clean modern typography."
     )

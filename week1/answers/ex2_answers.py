@@ -41,13 +41,13 @@ TASK_A_NOTES = (
 # ── Task B ─────────────────────────────────────────────────────────────────
 
 # Has generate_event_flyer been implemented (not just the stub)?
-TASK_B_IMPLEMENTED = False   # True or False
+TASK_B_IMPLEMENTED = True   # True or False
 
 # The image URL returned (or the error message if still a stub).
-TASK_B_IMAGE_URL_OR_ERROR = "STUB — see TODO in sovereign_agent/tools/venue_tools.py"
+TASK_B_IMAGE_URL_OR_ERROR = "https://pictures-storage.storage.eu-north1.nebius.cloud/text2img-a5f9524e-ce0c-4a53-8dad-5cb905ebc520_00001_.webp"
 
 # The prompt sent to the image model. Copy from terminal output.
-TASK_B_PROMPT_USED = "Professional event flyer for Edinburgh AI Meetup, tech professionals, modern venue at The Haymarket Vaults, Edinburgh. 160 guests."
+TASK_B_PROMPT_USED = "Professional event flyer for AI Meetup, professional, Scottish at The Haymarket Vaults, Edinburgh. 160 guests tonight. Warm lighting, Scottish architecture background, clean modern typography."
 
 # ── Task C ─────────────────────────────────────────────────────────────────
 
